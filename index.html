@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="pt-10 bg-purple-100 transition">
+    <div
+      class="p-4 m-auto flex flex-col  flex-wrap items-center w-[70%] bg-gradient-to-r from-indigo-200 via-purple-200 to-pink-200"
+    >
+    <div class="mb-10">
+      <button class="bg-red-200 p-2 rounded-xl mr-3" onclick="additem()">ADD</button>
+      <button class="bg-red-200 p-2 rounded-xl mr-3" onclick="deleteitem()">
+        REMOVE
+      </button>
+      <button class="bg-red-200 p-2 rounded-xl mr-3" onclick="sorted()">SORT</button>
+      <button class="bg-red-200 p-2 rounded-xl mr-3" onclick="reversed()">
+        REVERSE
+      </button>
+      <button class="bg-red-200 p-2 rounded-xl mr-3" onclick="words()">
+        WORDDY
+      </button>
+      <button class="bg-red-200 p-2 rounded-xl mr-3" onclick="Lightmode()">
+        LIGHTMODE
+      </button>
+      <button class="bg-red-200 p-2 rounded-xl mr-3" onclick="Darkmode()">
+        DARKMODE
+      </button>
+    </div>
+      <div id="box" class="w-full"></div>
+    </div>
+    <script src="lec8.js"></script>
+  </body>
+</html>
